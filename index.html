@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahyadri College of Engineering & Management | CSE Department</title>
+    <style>
+        /* CSS Reset & Professional Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        /* Official Campus Color Theme Setup */
+        :root {
+            --primary: #002b5c;   /* Deep Academic Blue */
+            --accent: #ff9900;    /* Bright University Orange/Gold */
+            --card-bg: #ffffff;
+            --text-dark: #333333;
+        }
+
+        /* Navigation Header */
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 5px solid var(--accent);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .brand h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .brand p {
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            margin-top: 2px;
+        }
+
+        .tag {
+            background-color: var(--accent);
+            color: var(--primary);
+            padding: 6px 14px;
+            font-weight: bold;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        /* Container Layout */
+        .wrapper {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin: 40px 0 20px 0;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 4px;
+            background: var(--accent);
+            margin: 8px auto 0 auto;
+        }
+
+        /* Grid Framework for Display Cards */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .full-width {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border-top: 4px solid var(--primary);
+        }
+
+        .card.cse-style {
+            border-top: 4px solid var(--accent);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: var(--text-dark);
+            text-align: justify;
+            font-size: 0.95rem;
+        }
+
+        /* Custom Bullet List Design */
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        /* Styled Placeholder for the requested Book Icons */
+        .icon-book {
+            background: #e2e8f0;
+            color: var(--primary);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            margin-right: 12px;
+            margin-top: 3px;
+            white-space: nowrap;
+        }
+
+        /* Assignment Requirement Footer Frame */
+        footer {
+            background-color: var(--primary);
+            color: #94a3b8;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+            border-top: 4px solid var(--accent);
+        }
+
+        footer p {
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+
+        footer strong {
+            color: white;
+        }
+
+        .github-btn {
+            display: inline-block;
+            margin-top: 10px;
+            background-color: #24292e;
+            color: white;
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid #444;
+            transition: background 0.2s;
+        }
+
+        .github-btn:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Panel -->
+    <header>
+        <div class="brand">
+            <h1>Sahyadri College of Engineering & Management</h1>
+            <p>Autonomous Institute | NAAC 'A' Grade | Mangaluru</p>
+        </div>
+        <div class="tag">CSE Department</div>
+    </header>
+
+    <div class="wrapper">
+        
+        <!-- Section: College Details -->
+        <h2 class="section-title">Sahyadri College Of Engineering And Management</h2>
+        
+        <div class="grid-2">
+            <div class="card">
+                <h3>Our Vision</h3>
+                <p>To be a premier institution in Technology and Management by fostering excellence in education, innovation, incubation and values to inspire and empower the young minds.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Our Mission</h3>
+                <div class="list-item">
+                    <span class="icon-book">📖 BOOK</span>
+                    <p>Creating an academic ambience to impart holistic education focusing on individual growth, integrity, ethical values and social responsibility.</p>
+                </div>
+                <div class="list-item">
+                    <span class="icon-book">📖 BOOK</span>
+                    <p>Develop skill based learning through industry-institution interaction to enhance competency and promote entrepreneurship.</p>
+                </div>
+                <div class="list-item">
+                    <span class="icon-book">📖 BOOK</span>
+                    <p>Fostering innovation and creativity through competitive environment with state-of-the-art infrastructure.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="full-width">
+            <div class="card">
+                <h3>Program Educational Objectives Statement (PEOs)</h3>
+                <p style="margin-bottom: 15px; font-weight: bold; color: #555;">The following are our Organization's Program Educational Objectives:</p>
+                <div class="list-item">
+                    <span class="icon-book">✓</span>
+                    <p>Acquire teamwork, critical thinking, problem-solving skills and achieve leadership position in business organizations.</p>
+                </div>
+                <div class="list-item">
+                    <span class="icon-book">✓</span>
+                    <p>Engage in lifelong learning for personal and professional growth.</p>
+                </div>
+                <div class="list-item">
+                    <span class="icon-book">✓</span>
+                    <p>Be an entrepreneur by identifying the opportunities to develop sustainable business.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: CSE Department Details -->
+        <h2 class="section-title">Computer Science & Engineering</h2>
+        
+        <div class="full-width">
+            <div class="card cse-style">
+                <h3>Department Overview</h3>
+                <p>The Department of Computer Science & Engineering was started in the year 2007 with a student intake of 60 to cater to the needs of software industries. Further, the intake was increased to 120 in the year 2009 and subsequently to 180, and 240 in the year 2014 and 2022 respectively. The Program Computer Science & Engineering is also accredited by the National Board of Accreditation (NBA) for a period of 3 years up to 2026.</p>
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <div class="card cse-style">
+                <h3>Our Vision (CSE)</h3>
+                <p>To be a globally recognized center for imparting quality technical education through innovative research and incubation with moral values in the field of computer science and engineering.</p>
+            </div>
+            
+            <div class="card cse-style">
+                <h3>Our Mission (CSE)</h3>
+                <div class="list-item">
+                    <span class="icon-book">📖 BOOK</span>
+                    <p>Fostering effective education through internal collaboration with industries to address societal demands.</p>
+                </div>
+                <div class="list-item">
+                    <span class="icon-book">📖 BOOK</span>
+                    <p>Empowering professionals with strong ethical values and leadership abilities.</p>
+                </div>
+                <div class="list-item">
+                    <span class="icon-book">📖 BOOK</span>
+                    <p>Developing research and entrepreneurship culture in students and faculty to cultivate lifelong learning.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Mandatory Verification Assignment Footer Layout -->
+    <footer>
+        <p>Website Developed By: <strong> Dhanyashree| Dept- CSE</strong></p>
+        <p>Deployment Architecture: Hosted via AWS EC2 Cloud Instance Node</p>
+        <a href="https://github.com" target="_blank" class="github-btn">📦 Pushed to GitHub Repository</a>
+    </footer>
+
+</body>
+</html>
