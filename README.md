@@ -2,6 +2,7 @@
 * **Student:**  Dhanyashree
 * **College:** Sahyadri College of Engineering & Management
 * **Program:** AWS Web Server Deployment
+* Public Url: http://13.49.227.51/
 # Simple HTML Website Hosted on AWS EC2
 
 ## Overview
